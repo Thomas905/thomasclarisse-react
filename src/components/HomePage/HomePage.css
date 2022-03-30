@@ -4,6 +4,13 @@
     margin: 0;
 }
 
+.orange{
+    color: #F53B00;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+
 .profil-img{
     width: 100%;
     display: flex;

@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import profilimg from "../../assets/images/profil.jpg";
 import "./HomePage.css";
+import Typewriter from "typewriter-effect";
 
 const HomePage = () => {
   
@@ -22,7 +23,15 @@ const HomePage = () => {
             <img src={profilimg} alt="profil image" />
           </div>
           <h1 className="white title">THOMAS CLARISSE</h1>
-          <h4 className="white sub-title">Développeur web fullstack 💻</h4>
+          <span className="orange sub-title">
+          <Typewriter
+              options={{
+                strings: ["Développeur PHP / Symfony", "Développeur REACT ", "UI / UX Designer ", "Free-lance "],
+                autoStart: true,
+                loop: true,
+              }}
+            />
+          </span>
         </div>
       </div>
       <div className="btn-go"><NavLink to="/about">Prêt pour voyager ?</NavLink></div>
