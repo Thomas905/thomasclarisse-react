@@ -1,8 +1,6 @@
 import React from 'react';
-import HomePage from '../../components/HomePage';
+import HomePage from '../../components/HomePage/HomePage';
 import './Home.css';
-import styled from 'styled-components';
-
 
 const Home = () => {
 
